@@ -1,5 +1,5 @@
 VisualGDB/Debug/_2_/USB_DEVICE/Src/usbd_ioreq.o: \
- C:/dev/2023/SEGA_USB_GamePad/USB_DEVICE/Src/usbd_ioreq.c \
+ C:/dev/SEGA_USB_GamePad/USB_DEVICE/Src/usbd_ioreq.c \
  ../../USB_DEVICE/Inc/usbd_ioreq.h ../../USB_DEVICE/Inc/usbd_def.h \
  ../../USB_DEVICE/Inc/usbd_conf.h \
  c:\sysgcc\arm-eabi\arm-none-eabi\include\stdio.h \

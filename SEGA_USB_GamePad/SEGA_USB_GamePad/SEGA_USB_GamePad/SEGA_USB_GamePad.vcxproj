@@ -45,7 +45,7 @@
       <CLanguageStandard>
       </CLanguageStandard>
       <AdditionalIncludeDirectories>..\..\USB_DEVICE\Inc;..\..\Core\Inc;..\..\Drivers\HAL\Inc;..\..\Drivers\CMSIS;%(ClCompile.AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <PreprocessorDefinitions>USE_HAL_DRIVER;STM32F103xB;%(ClCompile.PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>DEBUG=1;USE_HAL_DRIVER;STM32F103xB;%(ClCompile.PreprocessorDefinitions)</PreprocessorDefinitions>
       <AdditionalOptions />
       <CPPLanguageStandard />
     </ClCompile>
@@ -53,7 +53,7 @@
       <LibrarySearchDirectories>%(Link.LibrarySearchDirectories)</LibrarySearchDirectories>
       <AdditionalLibraryNames>%(Link.AdditionalLibraryNames)</AdditionalLibraryNames>
       <AdditionalLinkerInputs>%(Link.AdditionalLinkerInputs)</AdditionalLinkerInputs>
-      <LinkerScript>C:\dev\2023\SEGA_USB_GamePad\STM32F103C8TX_FLASH.ld</LinkerScript>
+      <LinkerScript>C:\dev\SEGA_USB_GamePad\STM32F103C8TX_FLASH.ld</LinkerScript>
       <AdditionalOptions />
     </Link>
   </ItemDefinitionGroup>
@@ -62,7 +62,7 @@
       <CLanguageStandard>
       </CLanguageStandard>
       <AdditionalIncludeDirectories>..\..\USB_DEVICE\Inc;..\..\Core\Inc;..\..\Drivers\HAL\Inc;..\..\Drivers\CMSIS;%(ClCompile.AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <PreprocessorDefinitions>USE_HAL_DRIVER;STM32F103xB;%(ClCompile.PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>NDEBUG=1;RELEASE=1;USE_HAL_DRIVER;STM32F103xB;%(ClCompile.PreprocessorDefinitions)</PreprocessorDefinitions>
       <AdditionalOptions />
       <CPPLanguageStandard />
     </ClCompile>
@@ -70,7 +70,7 @@
       <LibrarySearchDirectories>%(Link.LibrarySearchDirectories)</LibrarySearchDirectories>
       <AdditionalLibraryNames>%(Link.AdditionalLibraryNames)</AdditionalLibraryNames>
       <AdditionalLinkerInputs>%(Link.AdditionalLinkerInputs)</AdditionalLinkerInputs>
-      <LinkerScript>C:\dev\2023\SEGA_USB_GamePad\STM32F103C8TX_FLASH.ld</LinkerScript>
+      <LinkerScript>C:\dev\SEGA_USB_GamePad\STM32F103C8TX_FLASH.ld</LinkerScript>
       <AdditionalOptions />
     </Link>
   </ItemDefinitionGroup>

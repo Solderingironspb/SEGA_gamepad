@@ -1,5 +1,5 @@
 VisualGDB/Debug/_2_/Drivers/HAL/Src/stm32f1xx_hal_rcc_ex.o: \
- C:/dev/2023/SEGA_USB_GamePad/Drivers/HAL/Src/stm32f1xx_hal_rcc_ex.c \
+ C:/dev/SEGA_USB_GamePad/Drivers/HAL/Src/stm32f1xx_hal_rcc_ex.c \
  ../../Drivers/HAL/Inc/stm32f1xx_hal.h \
  ../../Drivers/HAL/Inc/stm32f1xx_hal_conf.h \
  ../../Drivers/HAL/Inc/stm32f1xx_hal_rcc.h \

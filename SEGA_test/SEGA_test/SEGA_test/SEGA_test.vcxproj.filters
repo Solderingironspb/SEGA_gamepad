@@ -30,6 +30,24 @@
       <UniqueIdentifier>{aed3e481-cc5f-45d7-85bc-bfed69f0ff63}</UniqueIdentifier>
       <Extensions>vgdbsettings</Extensions>
     </Filter>
+    <Filter Include="Core">
+      <UniqueIdentifier>{678e3485-987c-4163-aa7b-390ec69d0be3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Inc">
+      <UniqueIdentifier>{86f90d8e-0221-4be7-b175-09a9b2fddc96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Src">
+      <UniqueIdentifier>{fbdb9b98-3891-4464-9590-7016ea34ffef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Startup">
+      <UniqueIdentifier>{e6a584c1-83b6-4205-9b8d-2c9f0e8ce90b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Drivers">
+      <UniqueIdentifier>{0255fae0-ad32-4e74-b393-52a4dae58957}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Drivers\CMSIS">
+      <UniqueIdentifier>{a05cb3aa-09fd-4c2c-b802-a7f2d73b1eea}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\Core\Inc\main.h">

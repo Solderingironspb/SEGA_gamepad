@@ -1,0 +1,51 @@
+{
+  "Header":
+  {
+    "GenerationSoftware":
+    {
+      "Vendor":      "KiCad",
+      "Application": "Pcbnew",
+      "Version":     "(5.1.12)-1"
+    },
+    "CreationDate":  "2023-02-25T13:30:59+03:00"
+  },
+  "GeneralSpecs":
+  {
+    "ProjectId":
+    {
+      "Name": "SEGA_GamePad",
+      "GUID": "53454741-5f47-4616-9d65-5061642e6b69",
+      "Revision": "rev?"
+    },
+    "Size":
+    {
+      "X": 32.200,
+      "Y": 53.200
+    },
+    "LayerNumber": 2,
+    "BoardThickness":  1.600
+  },
+  "DesignRules":
+  [
+    {
+      "Layers": "Outer",
+      "PadToPad":  0.200,
+      "PadToTrack":  0.200,
+      "TrackToTrack":  0.200,
+      "MinLineWidth":  0.250,
+      "TrackToRegion":  0.600,
+      "RegionToRegion":  0.600
+    }
+  ],
+  "FilesAttributes":
+  [
+    {
+      "Path":  "SEGA_GamePad-Edge_Cuts.gbr",
+      "FileFunction":  "Profile",
+      "FilePolarity":  "Positive"
+    }
+  ],
+  "MaterialStackup":
+  [
+  ]
+}

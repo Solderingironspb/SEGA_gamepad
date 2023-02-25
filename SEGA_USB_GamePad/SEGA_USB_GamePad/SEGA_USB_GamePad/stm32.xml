@@ -45,7 +45,7 @@
     <AllDependencies>
       <ProjectDependency>
         <RelativePath>..\..\.cproject</RelativePath>
-        <Timestamp>133204456207173233</Timestamp>
+        <Timestamp>133217549500000000</Timestamp>
       </ProjectDependency>
     </AllDependencies>
     <RootDirectory>
@@ -60,10 +60,16 @@
                   <RelativePath>..\..\Core\Inc\main.h</RelativePath>
                 </VirtualFileSnapshot>
                 <VirtualFileSnapshot>
+                  <RelativePath>..\..\Core\Inc\SEGA_gamepad.h</RelativePath>
+                </VirtualFileSnapshot>
+                <VirtualFileSnapshot>
                   <RelativePath>..\..\Core\Inc\stm32f103xx_CMSIS.h</RelativePath>
                 </VirtualFileSnapshot>
                 <VirtualFileSnapshot>
                   <RelativePath>..\..\Core\Inc\main.h</RelativePath>
+                </VirtualFileSnapshot>
+                <VirtualFileSnapshot>
+                  <RelativePath>..\..\Core\Inc\SEGA_gamepad.h</RelativePath>
                 </VirtualFileSnapshot>
                 <VirtualFileSnapshot>
                   <RelativePath>..\..\Core\Inc\stm32f103xx_CMSIS.h</RelativePath>
@@ -75,6 +81,9 @@
               <Files>
                 <VirtualFileSnapshot>
                   <RelativePath>..\..\Core\Src\main.c</RelativePath>
+                </VirtualFileSnapshot>
+                <VirtualFileSnapshot>
+                  <RelativePath>..\..\Core\Src\SEGA_gamepad.c</RelativePath>
                 </VirtualFileSnapshot>
                 <VirtualFileSnapshot>
                   <RelativePath>..\..\Core\Src\stm32f103xx_CMSIS.c</RelativePath>
@@ -480,7 +489,7 @@
             <string>STM32F103xB</string>
           </PreprocessorMacros>
           <GeneratePreprocessorOutput>false</GeneratePreprocessorOutput>
-          <LinkerScript>C:\dev\2023\SEGA_USB_GamePad\STM32F103C8TX_FLASH.ld</LinkerScript>
+          <LinkerScript>C:\dev\SEGA_USB_GamePad\STM32F103C8TX_FLASH.ld</LinkerScript>
           <IsDebugConfiguration>false</IsDebugConfiguration>
         </Settings>
       </ImportedConfiguration>

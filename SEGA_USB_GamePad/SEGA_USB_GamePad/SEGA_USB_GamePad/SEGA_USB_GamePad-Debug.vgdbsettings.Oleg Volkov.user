@@ -26,7 +26,7 @@
       <HardwareRegisterFilters />
     </Suggestions>
     <LiveVariablePreferences>
-      <ViewMode>AllGlobals</ViewMode>
+      <ViewMode>SpecificVariables</ViewMode>
       <FavoritesOnly>false</FavoritesOnly>
     </LiveVariablePreferences>
     <HardwareRegisters />

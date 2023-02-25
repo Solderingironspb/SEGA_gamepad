@@ -3,7 +3,7 @@
 #include "usbd_customhid.h"
 #include "SEGA_gamepad.h"
 
-extern uint16_t Buttons; //Переменная под 12 кнопок
+extern uint16_t Buttons; //РџРµСЂРµРјРµРЅРЅР°СЏ РїРѕРґ 12 РєРЅРѕРїРѕРє
 USB_Custom_HID_Gamepad Gamepad_data;
 
 extern PCD_HandleTypeDef hpcd_USB_FS;
@@ -25,11 +25,11 @@ int main(void){
     CMSIS_Debug_init();
     CMSIS_RCC_SystemClock_72MHz();
     CMSIS_SysTick_Timer_init();
-	CMSIS_PC13_OUTPUT_Push_Pull_init(); //Ножка, которая будет мигать при нажатии кнопок геймпада
+	CMSIS_PC13_OUTPUT_Push_Pull_init(); //РќРѕР¶РєР°, РєРѕС‚РѕСЂР°СЏ Р±СѓРґРµС‚ РјРёРіР°С‚СЊ РїСЂРё РЅР°Р¶Р°С‚РёРё РєРЅРѕРїРѕРє РіРµР№РјРїР°РґР°
 	SEGA_LED_OFF;
-	CMSIS_TIM2_init(); //Таймер на 240 Гц
-	CMSIS_TIM3_init(); //Таймер на 100кГц, для ножки PA7(SELECT). Длина импульса 20 мкс. Забираем данные между фронтами.
-	SEGA_GPIO_Init(); //Настройка ножек для работы с геймпадом
+	CMSIS_TIM2_init(); //РўР°Р№РјРµСЂ РЅР° 240 Р“С†
+	CMSIS_TIM3_init(); //РўР°Р№РјРµСЂ РЅР° 100РєР“С†, РґР»СЏ РЅРѕР¶РєРё PA7(SELECT). Р”Р»РёРЅР° РёРјРїСѓР»СЊСЃР° 20 РјРєСЃ. Р—Р°Р±РёСЂР°РµРј РґР°РЅРЅС‹Рµ РјРµР¶РґСѓ С„СЂРѕРЅС‚Р°РјРё.
+	SEGA_GPIO_Init(); //РќР°СЃС‚СЂРѕР№РєР° РЅРѕР¶РµРє РґР»СЏ СЂР°Р±РѕС‚С‹ СЃ РіРµР№РјРїР°РґРѕРј
     MX_USB_DEVICE_Init();
     
     while (1){

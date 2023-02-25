@@ -90,7 +90,7 @@
 
 #define SEGA_SELECT_ON  GPIOA->BSRR = GPIO_BSRR_BS6
 #define SEGA_SELECT_OFF GPIOA->BSRR = GPIO_BSRR_BR6
-#define SEGA_LED_ON     GPIOC->BSRR = GPIO_BSRR_BR13
-#define SEGA_LED_OFF    GPIOC->BSRR = GPIO_BSRR_BS13
+#define SEGA_LED_ON     GPIOC->BSRR = GPIO_BSRR_BS13
+#define SEGA_LED_OFF    GPIOC->BSRR = GPIO_BSRR_BR13
 
 void SEGA_GPIO_Init(void); //Настройка ножек для работы с геймпадом

@@ -66,7 +66,7 @@
 #define USBD_VID     1155
 #define USBD_LANGID_STRING     1033
 #define USBD_MANUFACTURER_STRING         "STM32 Custom Human interface"
-#define USBD_PID_FS     22362
+#define USBD_PID_FS     22370
 #define USBD_PRODUCT_STRING_FS           "SEGA_Controller_1"
 #define USBD_CONFIGURATION_STRING_FS     "Custom HID Config"
 #define USBD_INTERFACE_STRING_FS         "Custom HID Interface"

@@ -47,6 +47,42 @@
     <Filter Include="VisualGDB settings">
       <UniqueIdentifier>{664bac2a-1e03-41f1-b21d-3e3e40d43ac6}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Core">
+      <UniqueIdentifier>{6849e74e-c529-4fac-99bf-8f79a45f2f4a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Inc">
+      <UniqueIdentifier>{9068b26b-065e-493a-b3ae-1c8cad8e6bb6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Src">
+      <UniqueIdentifier>{39a913cb-2162-492a-9aa8-2ad93da23e13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Startup">
+      <UniqueIdentifier>{85cc60f9-c3c0-4dfb-982d-09e3538dd2e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Drivers">
+      <UniqueIdentifier>{f9ec1a56-12c6-4ba4-adc5-9a9ef8234de1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Drivers\CMSIS">
+      <UniqueIdentifier>{d79e46a7-b153-4dbd-9bff-6e28efa22e7f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Drivers\HAL">
+      <UniqueIdentifier>{927c0a80-afd4-4318-abd6-803affb24ec7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Drivers\HAL\Inc">
+      <UniqueIdentifier>{5a96fced-7e74-4bc1-9b10-aa9d5932e34a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Drivers\HAL\Src">
+      <UniqueIdentifier>{86f5128e-436b-4edd-89e8-e4fe9121ec16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="USB_DEVICE">
+      <UniqueIdentifier>{700cad8e-e768-441b-b4d5-abc68675bd2d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="USB_DEVICE\Inc">
+      <UniqueIdentifier>{9f6d0112-54b6-4b37-ba96-de322459adbf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="USB_DEVICE\Src">
+      <UniqueIdentifier>{195bb6a7-b042-4608-83ec-30920b1c614c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\Core\Inc\main.h">
