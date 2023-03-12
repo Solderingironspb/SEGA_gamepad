@@ -504,7 +504,7 @@ F 3 " ~" H 2950 4900 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 Text GLabel 1050 4200 1    50   Input ~ 0
-5V
+3.3V
 $Comp
 L power:GND #PWR011
 U 1 1 63EF49CF

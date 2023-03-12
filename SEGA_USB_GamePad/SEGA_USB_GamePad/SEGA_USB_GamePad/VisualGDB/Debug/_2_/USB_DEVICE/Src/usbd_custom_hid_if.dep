@@ -1,5 +1,5 @@
 VisualGDB/Debug/_2_/USB_DEVICE/Src/usbd_custom_hid_if.o: \
- C:/dev/SEGA_USB_GamePad/USB_DEVICE/Src/usbd_custom_hid_if.c \
+ C:/Users/Oleg\ Volkov/Documents/GitHub/SEGA_gamepad/SEGA_USB_GamePad/USB_DEVICE/Src/usbd_custom_hid_if.c \
  ../../USB_DEVICE/Inc/usbd_custom_hid_if.h \
  ../../USB_DEVICE/Inc/usbd_customhid.h ../../USB_DEVICE/Inc/usbd_ioreq.h \
  ../../USB_DEVICE/Inc/usbd_def.h ../../USB_DEVICE/Inc/usbd_conf.h \

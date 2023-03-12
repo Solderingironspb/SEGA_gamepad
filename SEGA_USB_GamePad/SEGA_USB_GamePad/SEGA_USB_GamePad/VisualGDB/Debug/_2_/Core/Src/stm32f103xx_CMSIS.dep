@@ -1,5 +1,5 @@
 VisualGDB/Debug/_2_/Core/Src/stm32f103xx_CMSIS.o: \
- C:/dev/SEGA_USB_GamePad/Core/Src/stm32f103xx_CMSIS.c \
+ C:/Users/Oleg\ Volkov/Documents/GitHub/SEGA_gamepad/SEGA_USB_GamePad/Core/Src/stm32f103xx_CMSIS.c \
  ../../Core/Inc/stm32f103xx_CMSIS.h ../../Core/Inc/main.h \
  ../../Drivers/HAL/Inc/stm32f1xx_hal.h \
  ../../Drivers/HAL/Inc/stm32f1xx_hal_conf.h \

@@ -1,5 +1,5 @@
 VisualGDB/Debug/_2_/USB_DEVICE/Src/usb_device.o: \
- C:/dev/SEGA_USB_GamePad/USB_DEVICE/Src/usb_device.c \
+ C:/Users/Oleg\ Volkov/Documents/GitHub/SEGA_gamepad/SEGA_USB_GamePad/USB_DEVICE/Src/usb_device.c \
  ../../USB_DEVICE/Inc/usb_device.h ../../Drivers/CMSIS/stm32f1xx.h \
  ../../Drivers/CMSIS/stm32f103xb.h ../../Drivers/CMSIS/core_cm3.h \
  c:\sysgcc\arm-eabi\lib\gcc\arm-none-eabi\10.3.1\include\stdint.h \

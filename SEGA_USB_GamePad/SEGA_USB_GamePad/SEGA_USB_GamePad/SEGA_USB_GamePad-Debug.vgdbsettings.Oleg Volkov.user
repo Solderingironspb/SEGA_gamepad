@@ -15,7 +15,20 @@
     <NestedLiveVariables>
       <NestedVariableSettingsCollection>
         <ID>com.sysprogs.AllGlobals</ID>
-        <Variables />
+        <Variables>
+          <LiveVariable>
+            <Expression>Buttons</Expression>
+            <Type>com.sysprogs.types.builtin.HexInt16</Type>
+            <Enabled>true</Enabled>
+            <Breakpoint>
+              <ComparisonMode>Equals</ComparisonMode>
+              <Enabled>false</Enabled>
+            </Breakpoint>
+            <Plot>false</Plot>
+            <IsCollapsed>false</IsCollapsed>
+            <IsFavorite>false</IsFavorite>
+          </LiveVariable>
+        </Variables>
       </NestedVariableSettingsCollection>
       <NestedVariableSettingsCollection>
         <ID>com.sysprogs.SpecificVariables</ID>
@@ -26,7 +39,7 @@
       <HardwareRegisterFilters />
     </Suggestions>
     <LiveVariablePreferences>
-      <ViewMode>SpecificVariables</ViewMode>
+      <ViewMode>AllGlobals</ViewMode>
       <FavoritesOnly>false</FavoritesOnly>
     </LiveVariablePreferences>
     <HardwareRegisters />
