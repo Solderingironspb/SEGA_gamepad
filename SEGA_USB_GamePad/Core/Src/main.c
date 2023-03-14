@@ -33,15 +33,7 @@ int main(void){
     MX_USB_DEVICE_Init();
     
     while (1){
-        /*
-        Gamepad_data.buttons++;
-        if (Gamepad_data.buttons > 0x7FF){
-            Gamepad_data.buttons = 0;
-        }
-        USBD_CUSTOM_HID_SendReport(&hUsbDeviceFS, (uint8_t*)&Gamepad_data, sizeof(Gamepad_data));
-        Delay_ms(4);*/
-        
-   
+ 
     }
   
 }

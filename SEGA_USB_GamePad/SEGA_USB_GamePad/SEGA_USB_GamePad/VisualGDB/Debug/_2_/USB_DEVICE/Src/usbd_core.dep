@@ -1,5 +1,5 @@
 VisualGDB/Debug/_2_/USB_DEVICE/Src/usbd_core.o: \
- C:/Users/Oleg\ Volkov/Documents/GitHub/SEGA_gamepad/SEGA_USB_GamePad/USB_DEVICE/Src/usbd_core.c \
+ C:/dev/SEGA_USB_GamePad/USB_DEVICE/Src/usbd_core.c \
  ../../USB_DEVICE/Inc/usbd_core.h ../../USB_DEVICE/Inc/usbd_conf.h \
  c:\sysgcc\arm-eabi\arm-none-eabi\include\stdio.h \
  c:\sysgcc\arm-eabi\arm-none-eabi\include\_ansi.h \
